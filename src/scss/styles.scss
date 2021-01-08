@@ -1,0 +1,12 @@
+@import './variables/fonts.scss';
+@import './variables/colors.scss';
+@import './variables/breakpoints.scss';
+
+@import './mixins/bpoint.scss';
+
+@import './base/normalize.scss';
+@import './base/base.scss';
+
+@import './blocks/header.scss';
+@import './blocks/main.scss';
+@import './blocks/footer.scss';

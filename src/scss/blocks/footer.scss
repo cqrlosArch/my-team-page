@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 4rem;
+    text-align: center;
+    @include md {
+        margin-top: 6rem;
+      }
+  &__text {
+    font-family: $poppins;
+    color: $footerColor;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
